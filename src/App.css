@@ -1,0 +1,73 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.card{
+width: 660px;
+height: 407px;
+background-color: white;
+border-radius: 10px;
+box-shadow: 0px 2px 4px rgb(0,0,0.6);
+margin-top: 8%;
+display: flex;
+}
+.gif{
+  width: 60%;
+  display: flex;
+}
+img{
+  width: 98%;
+  border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+
+}
+.content{
+  display: flex;
+  flex: 2 1;
+  flex-direction: column;
+  background-color: #80808038;
+}
+.counter-value{
+  flex-basis: 50%;
+display: flex;
+justify-content: center;
+margin-left: 16px;
+}
+h2{
+  display: flex;
+justify-content: center;
+align-items: center;
+font-size: 57px;
+font-weight: lighter;
+}
+button{
+  height: 60px;
+width: 60px;
+border-radius: 50%;
+font-size: 32px;
+color: rgb(0,0,0,0.6);
+outline: none;
+box-shadow: 0px 2px 4px grey;
+background:#00a8ff;
+border: none;
+color: white;
+transition: all ease-in-out 0.2s;
+}
+
+button:hover{
+  transform: scale(1.05);
+}
+.buttonGroup{
+  display: flex;
+justify-content: space-evenly;
+}
+h6{
+  display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px;
+}
